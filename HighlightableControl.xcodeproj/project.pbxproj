@@ -13,6 +13,8 @@
 		B15BEB9620E22A1E00583E15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B15BEB9520E22A1E00583E15 /* Assets.xcassets */; };
 		B15BEB9920E22A1E00583E15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B15BEB9720E22A1E00583E15 /* LaunchScreen.storyboard */; };
 		B15BEB9C20E22A1E00583E15 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B15BEB9B20E22A1E00583E15 /* main.m */; };
+		B15BEBA420E22A4700583E15 /* HighlightableControl.m in Sources */ = {isa = PBXBuildFile; fileRef = B15BEBA320E22A4700583E15 /* HighlightableControl.m */; };
+		B15BEBAE20E2378E00583E15 /* CABasicAnimation+Creation.m in Sources */ = {isa = PBXBuildFile; fileRef = B15BEBAD20E2378E00583E15 /* CABasicAnimation+Creation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		B15BEB9820E22A1E00583E15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B15BEB9A20E22A1E00583E15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B15BEB9B20E22A1E00583E15 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B15BEBA220E22A4700583E15 /* HighlightableControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HighlightableControl.h; sourceTree = "<group>"; };
+		B15BEBA320E22A4700583E15 /* HighlightableControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HighlightableControl.m; sourceTree = "<group>"; };
+		B15BEBAC20E2378E00583E15 /* CABasicAnimation+Creation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CABasicAnimation+Creation.h"; sourceTree = "<group>"; };
+		B15BEBAD20E2378E00583E15 /* CABasicAnimation+Creation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CABasicAnimation+Creation.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +73,10 @@
 				B15BEB9720E22A1E00583E15 /* LaunchScreen.storyboard */,
 				B15BEB9A20E22A1E00583E15 /* Info.plist */,
 				B15BEB9B20E22A1E00583E15 /* main.m */,
+				B15BEBA220E22A4700583E15 /* HighlightableControl.h */,
+				B15BEBA320E22A4700583E15 /* HighlightableControl.m */,
+				B15BEBAC20E2378E00583E15 /* CABasicAnimation+Creation.h */,
+				B15BEBAD20E2378E00583E15 /* CABasicAnimation+Creation.m */,
 			);
 			path = HighlightableControl;
 			sourceTree = "<group>";
@@ -142,7 +152,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B15BEB9120E22A1700583E15 /* ViewController.m in Sources */,
+				B15BEBAE20E2378E00583E15 /* CABasicAnimation+Creation.m in Sources */,
 				B15BEB9C20E22A1E00583E15 /* main.m in Sources */,
+				B15BEBA420E22A4700583E15 /* HighlightableControl.m in Sources */,
 				B15BEB8E20E22A1700583E15 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
